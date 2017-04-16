@@ -22,10 +22,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="5b41c3c6c7169ee2c24c04ca252de969" />
+            android:value="0e4ad55b9838541e99f1d8af12a8638b" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -34,6 +33,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GetPointActivity" />
+        <activity android:name=".DrawLineActivity"></activity>
     </application>
 
 </manifest>
